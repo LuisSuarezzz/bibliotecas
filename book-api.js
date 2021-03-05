@@ -24,4 +24,4 @@ app.post('/book', (req, res) => {
     res.send('Book is added to the database');
 });
 
-app.listen(port, () => console.log(`Hello world app listening on port ${port}!`));
+app.listen(port, () => console.log(`book api app listening on port ${port}!`));
